@@ -1,0 +1,364 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1510119610118888}
+  m_IsPrefabAsset: 1
+--- !u!1 &1197918626781402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4968844364823142}
+  - component: {fileID: 33501202472461558}
+  - component: {fileID: 23405911324923166}
+  - component: {fileID: 65453808537045774}
+  - component: {fileID: 114428891447627812}
+  m_Layer: 9
+  m_Name: DialogueTrigger_SelfIntroduction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1510119610118888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4465920199486744}
+  m_Layer: 9
+  m_Name: Diaglogues
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1872699488058904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4040864793990010}
+  - component: {fileID: 33125156339520932}
+  - component: {fileID: 23704147174420336}
+  - component: {fileID: 65493096444401392}
+  - component: {fileID: 114818637190100310}
+  m_Layer: 9
+  m_Name: DialogueTrigger_How to drive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1944842057029492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4962925345743636}
+  - component: {fileID: 33916040815426454}
+  - component: {fileID: 23820362308276620}
+  - component: {fileID: 65655747205875544}
+  - component: {fileID: 114516710858786446}
+  m_Layer: 9
+  m_Name: DialogueTrigger_CollectCoins
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4040864793990010
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1872699488058904}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.38, z: 11.7}
+  m_LocalScale: {x: 29.18417, y: 25.43512, z: 2.19853}
+  m_Children: []
+  m_Father: {fileID: 4465920199486744}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4465920199486744
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1510119610118888}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4962925345743636}
+  - {fileID: 4968844364823142}
+  - {fileID: 4040864793990010}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4962925345743636
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1944842057029492}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.38, z: 118.4}
+  m_LocalScale: {x: 29.18417, y: 25.43512, z: 2.19853}
+  m_Children: []
+  m_Father: {fileID: 4465920199486744}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4968844364823142
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197918626781402}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.38, z: 30.6}
+  m_LocalScale: {x: 29.184164, y: 25.435122, z: 2.1985264}
+  m_Children: []
+  m_Father: {fileID: 4465920199486744}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23405911324923166
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197918626781402}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 3233bbcec810529488306c9b2f55213a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23704147174420336
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1872699488058904}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 3233bbcec810529488306c9b2f55213a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23820362308276620
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1944842057029492}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 3233bbcec810529488306c9b2f55213a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33125156339520932
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1872699488058904}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33501202472461558
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197918626781402}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33916040815426454
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1944842057029492}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65453808537045774
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197918626781402}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65493096444401392
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1872699488058904}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65655747205875544
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1944842057029492}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114428891447627812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197918626781402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 808b6faf712335847a6d42f798525569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: "Jordan Jiao  \u4E54\u4E39 \u7126"
+    characterEnum: 0
+    specifiedCharacterIndex: 1
+    sentences:
+    - "By the way, I am Tianjio. I go by Jordan. I have waited here for such a long
+      time. Very nice to finally meet you here.\n\u987A\u4FBF\u4E00\u63D0\uFF0C\u6211\u662F\u8214\u811A\uFF0C\u559C\u6B22\u88AB\u53EB\u4E54\u4E39\u3002\u6211\u5728\u8FD9\u513F\u7B49\u4E86\u5F88\u4E45\u3002\u975E\u5E38\u9AD8\u5174\u7EC8\u4E8E\u5728\u8FD9\u91CC\u89C1\u5230\u4F60\u3002"
+    - "I really love cars, and I want you to help me to past some tasks and build
+      me a better car.\n\u6211\u771F\u7684\u5F88\u559C\u6B22\u6C7D\u8F66\uFF0C\u6211\u5E0C\u671B\u4F60\u5E2E\u52A9\u6211\u5B8C\u6210\u6240\u6709\u8FD9\u4E9B\u4EFB\u52A1\u5E76\u4E3A\u6211\u5EFA\u9020\u4E00\u8F86\u66F4\u597D\u7684\u6C7D\u8F66\u3002"
+    - "Let's do this! \n\u6211\u4EEC\u5F00\u5DE5\u5427\uFF01"
+--- !u!114 &114516710858786446
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1944842057029492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 808b6faf712335847a6d42f798525569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: "Jordan Jiao  \u4E54\u4E39 \u7126"
+    characterEnum: 0
+    specifiedCharacterIndex: 2
+    sentences:
+    - "You will gain a level-up after each time you have filled up the bar overhead.
+      The more coins you collect, the higher level you will get.  \r\n\u6BCF\u6B21\u586B\u6EE1\u8FDB\u5EA6\u6761\u540E\uFF0C\u60A8\u5C06\u83B7\u5F97\u4E00\u6B21\u5347\u7EA7\u3002\u6536\u96C6\u7684\u786C\u5E01\u8D8A\u591A\uFF0C\u4F60\u83B7\u5F97\u7684\u7EA7\u522B\u4E5F\u5C31\u8D8A\u9AD8\u3002"
+    - "No one hates money, right? Let's Collect as many coins as possible in order
+      to build a better car!! :)\n\u6CA1\u6709\u4EBA\u8BA8\u538C\u94B1\uFF0C\u5BF9\u5427\uFF1F\u8BA9\u6211\u4EEC\u6536\u96C6\u5C3D\u53EF\u80FD\u591A\u7684\u786C\u5E01\uFF0C\u4EE5\u4FBF\u6253\u9020\u66F4\u597D\u7684\u8F66\uFF01:)"
+--- !u!114 &114818637190100310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1872699488058904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 808b6faf712335847a6d42f798525569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: "Tianjio Jiao \u8214\u811A \u7126"
+    characterEnum: 0
+    specifiedCharacterIndex: 0
+    sentences:
+    - "Touch the left part of the screen to drive left. And Touch the right part of
+      the screen to drive right. \n\u89E6\u6478\u5C4F\u5E55\u7684\u5DE6\u4FA7\u90E8\u5206\u5411\u5DE6\u884C\u9A76\u3002\u89E6\u6478\u5C4F\u5E55\u7684\u53F3\u4FA7\u90E8\u5206\u5373\u53EF\u5411\u53F3\u884C\u9A76\u3002"
+    - "Dont worried about moving forward, I will step on the gas. You just keep an
+      eye on the road and the steering wheel.\n\u4E0D\u8981\u62C5\u5FC3\u524D\u8FDB\uFF0C\u6211\u4F1A\u8E29\u6CB9\u95E8\u3002\u4F60\u53EA\u8981\u7559\u610F\u9053\u8DEF\u548C\u65B9\u5411\u76D8\u3002"
+    - "That is it! Good luck and have fun! :D\n\u8FD9\u5C31\u662F\u4F60\u9700\u8981\u638C\u63E1\u7684\uFF01\u795D\u4F60\u597D\u8FD0\u5E76\u73A9\u5F97\u5F00\u5FC3\u70B9\uFF01:D"

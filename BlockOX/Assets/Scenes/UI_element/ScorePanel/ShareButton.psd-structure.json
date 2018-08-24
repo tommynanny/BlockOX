@@ -1,0 +1,5 @@
+{"type":"root","options":{
+
+},"size":{"width":900,"height":900},"children":[{"name":"ShareButton ","type":"button","options":{"buttonStates":["pressed","normal"]},"offset":{"left":50,"top":50},"size":{"width":810,"height":807},"relativePath":"ShareButton ","children":[
+
+]}]}

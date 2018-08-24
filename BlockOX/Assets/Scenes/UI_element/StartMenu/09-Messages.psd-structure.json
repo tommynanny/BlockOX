@@ -1,0 +1,41 @@
+{"type":"root","options":{
+
+},"size":{"width":2280,"height":1440},"children":[{"name":"Close Button","type":"button","options":{"buttonStates":["pressed","normal"]},"offset":{"left":1714,"top":201},"size":{"width":169,"height":169},"relativePath":"Close Button","children":[
+
+]},{"name":"Headline Flag","type":"png","options":{
+
+},"offset":{"left":1003,"top":273},"size":{"width":662,"height":257},"relativePath":"Headline Flag","children":[
+
+]},{"name":"Girl","type":"group","options":{
+
+},"offset":{"left":469,"top":577},"size":{"width":1327,"height":190},"relativePath":"Girl","children":[{"name":"Text","type":"png","options":{
+
+},"offset":{"left":688,"top":621},"size":{"width":515,"height":102},"relativePath":"Girl/Text","children":[
+
+]},{"name":"Girld","type":"png","options":{
+
+},"offset":{"left":485,"top":594},"size":{"width":159,"height":159},"relativePath":"Girl/Girld","children":[
+
+]},{"name":"BlueRectangle","type":"png","options":{
+
+},"offset":{"left":469,"top":577},"size":{"width":1327,"height":190},"relativePath":"Girl/BlueRectangle","children":[
+
+]}]},{"name":"Boy","type":"group","options":{
+
+},"offset":{"left":469,"top":784},"size":{"width":1327,"height":190},"relativePath":"Boy","children":[{"name":"Text","type":"png","options":{
+
+},"offset":{"left":688,"top":827},"size":{"width":469,"height":103},"relativePath":"Boy/Text","children":[
+
+]},{"name":"Boy","type":"png","options":{
+
+},"offset":{"left":486,"top":800},"size":{"width":159,"height":159},"relativePath":"Boy/Boy","children":[
+
+]},{"name":"PinkRectangle","type":"png","options":{
+
+},"offset":{"left":469,"top":784},"size":{"width":1327,"height":190},"relativePath":"Boy/PinkRectangle","children":[
+
+]}]},{"name":"Popup","type":"png","options":{
+
+},"offset":{"left":375,"top":108},"size":{"width":1517,"height":1235},"relativePath":"Popup","children":[
+
+]}]}

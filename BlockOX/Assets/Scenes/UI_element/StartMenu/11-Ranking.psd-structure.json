@@ -1,0 +1,5 @@
+{"type":"root","options":{
+
+},"size":{"width":2280,"height":1440},"children":[{"name":"CloseButton","type":"button","options":{"buttonStates":["pressed","normal"]},"offset":{"left":1651,"top":202},"size":{"width":169,"height":169},"relativePath":"CloseButton","children":[
+
+]}]}

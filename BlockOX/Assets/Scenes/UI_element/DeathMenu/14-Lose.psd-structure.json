@@ -1,0 +1,29 @@
+{"type":"root","options":{
+
+},"size":{"width":2280,"height":1440},"children":[{"name":"Text","type":"group","options":{
+
+},"offset":{"left":791,"top":657},"size":{"width":701,"height":294},"relativePath":"Text","children":[{"name":"You lose","type":"png","options":{
+
+},"offset":{"left":791,"top":657},"size":{"width":701,"height":117},"relativePath":"Text/You lose","children":[
+
+]},{"name":"Your Score","type":"png","options":{
+
+},"offset":{"left":827,"top":900},"size":{"width":626,"height":51},"relativePath":"Text/Your Score","children":[
+
+]}]},{"name":"TryAgain","type":"button","options":{"buttonStates":["pressed","normal"]},"offset":{"left":1058,"top":1030},"size":{"width":210,"height":210},"relativePath":"TryAgain","children":[
+
+]},{"name":"Skull","type":"png","options":{
+
+},"offset":{"left":1152,"top":136},"size":{"width":523,"height":554},"relativePath":"Skull","children":[
+
+]},{"name":"Popup","type":"png","options":{
+
+},"offset":{"left":543,"top":272},"size":{"width":1196,"height":1063},"relativePath":"Popup","children":[
+
+]},{"name":"Background","type":"group","options":{
+
+},"offset":{"left":-2,"top":-3},"size":{"width":2280,"height":1441},"relativePath":"Background","children":[{"name":"Shadow","type":"png","options":{
+
+},"offset":{"left":-2,"top":-3},"size":{"width":2280,"height":1441},"relativePath":"Background/Shadow","children":[
+
+]}]}]}
